@@ -78,5 +78,10 @@ Test Result
 Overview
 ![image](https://user-images.githubusercontent.com/53869077/236669213-2994b794-e191-46d2-b1df-2a17c3a490ba.png)
 
+Test cases with its execution time 
+![image](https://user-images.githubusercontent.com/53869077/236669320-f39ba112-0d97-4fdb-84e2-ce4828b272e4.png)
+
+Graphs
+![image](https://user-images.githubusercontent.com/53869077/236669387-e2825b64-39d3-448b-8fde-9d2bafec0d85.png)
 
 
