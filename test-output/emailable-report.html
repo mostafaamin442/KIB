@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Testing</th></tr>
+<tr><td><a href="#t0">Regression</a></td><td class="num">17</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">113,168</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testClasses.HomeTest</td><td><a href="#m0">CloseDriver</a></td><td rowspan="1">1683438668595</td><td rowspan="1">175</td></tr><tr><th colspan="4">Regression &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testClasses.AddProductTest</td><td><a href="#m1">AddImage</a></td><td rowspan="1">1683438562502</td><td rowspan="1">17334</td></tr><tr class="failedodd"><td rowspan="2">testClasses.PerformnaceTest</td><td><a href="#m2">ResourseTiming</a></td><td rowspan="1">1683438668158</td><td rowspan="1">212</td></tr><tr class="failedodd"><td><a href="#m3">ServerTiming</a></td><td rowspan="1">1683438667923</td><td rowspan="1">233</td></tr><tr><th colspan="4">Regression &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testClasses.AddProductTest</td><td><a href="#m4">AddDescription</a></td><td rowspan="1">1683438592532</td><td rowspan="1">12645</td></tr><tr class="passedeven"><td><a href="#m5">AddPrice</a></td><td rowspan="1">1683438605183</td><td rowspan="1">15695</td></tr><tr class="passedeven"><td><a href="#m6">AddTitle</a></td><td rowspan="1">1683438579842</td><td rowspan="1">12681</td></tr><tr class="passedeven"><td><a href="#m7">CheckAddProduct</a></td><td rowspan="1">1683438620881</td><td rowspan="1">178</td></tr><tr class="passedodd"><td rowspan="1">testClasses.DeleteProductTest</td><td><a href="#m8">DeleteProduct</a></td><td rowspan="1">1683438652460</td><td rowspan="1">15424</td></tr><tr class="passedeven"><td rowspan="5">testClasses.EditProductTest</td><td><a href="#m9">CheckEditProuct</a></td><td rowspan="1">1683438652291</td><td rowspan="1">162</td></tr><tr class="passedeven"><td><a href="#m10">EditDescription</a></td><td rowspan="1">1683438639686</td><td rowspan="1">6283</td></tr><tr class="passedeven"><td><a href="#m11">EditImage</a></td><td rowspan="1">1683438621061</td><td rowspan="1">15333</td></tr><tr class="passedeven"><td><a href="#m12">EditPrice</a></td><td rowspan="1">1683438645971</td><td rowspan="1">6316</td></tr><tr class="passedeven"><td><a href="#m13">EditTitle</a></td><td rowspan="1">1683438636402</td><td rowspan="1">3281</td></tr><tr class="passedodd"><td rowspan="4">testClasses.HomeTest</td><td><a href="#m14">CheckFooter</a></td><td rowspan="1">1683438558972</td><td rowspan="1">57</td></tr><tr class="passedodd"><td><a href="#m15">CheckLogo</a></td><td rowspan="1">1683438558362</td><td rowspan="1">321</td></tr><tr class="passedodd"><td><a href="#m16">CheckSearchBar</a></td><td rowspan="1">1683438558826</td><td rowspan="1">69</td></tr><tr class="passedodd"><td><a href="#m17">Checkfooter</a></td><td rowspan="1">1683438558904</td><td rowspan="1">65</td></tr><tr class="passedeven"><td rowspan="1">testClasses.PerformnaceTest</td><td><a href="#m18">NavigationTiming</a></td><td rowspan="1">1683438667890</td><td rowspan="1">30</td></tr><tr class="passedodd"><td rowspan="2">testClasses.SearchTest</td><td><a href="#m19">InValidSearch</a></td><td rowspan="1">1683438559309</td><td rowspan="1">3189</td></tr><tr class="passedodd"><td><a href="#m20">ValidSearch</a></td><td rowspan="1">1683438559032</td><td rowspan="1">273</td></tr></tbody>
+</table>
+<h2>Regression</h2><h3 id="m0">testClasses.HomeTest#CloseDriver</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ERB8SG3&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Mostafa\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2164b531b8e27faa3e7f10816bd2ff3a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at testClasses.TestBase.CloseDriver(TestBase.java:39)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testClasses.AddProductTest#AddImage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div/main/div/form/div[1]/div/label/input&quot;}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ERB8SG3&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Mostafa\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2164b531b8e27faa3e7f10816bd2ff3a
+*** Element info: {Using=xpath, value=//*[@id=&quot;root&quot;]/div/main/div/form/div[1]/div/label/input}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at mainClasses.AddProductPage.AddImage(AddProductPage.java:68)
+	at testClasses.AddProductTest.AddImage(AddProductTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testClasses.PerformnaceTest#ResourseTiming</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Resource load time is too long. expected [true] but found [false]
+	at mainClasses.PerformancePage.CheckResourseTiming(PerformancePage.java:82)
+	at testClasses.PerformnaceTest.ResourseTiming(PerformnaceTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testClasses.PerformnaceTest#ServerTiming</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Resource load time is too long. expected [true] but found [false]
+	at mainClasses.PerformancePage.CheckResourseTiming(PerformancePage.java:82)
+	at testClasses.PerformnaceTest.ServerTiming(PerformnaceTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testClasses.AddProductTest#AddDescription</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testClasses.AddProductTest#AddPrice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testClasses.AddProductTest#AddTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testClasses.AddProductTest#CheckAddProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testClasses.DeleteProductTest#DeleteProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testClasses.EditProductTest#CheckEditProuct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testClasses.EditProductTest#EditDescription</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testClasses.EditProductTest#EditImage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testClasses.EditProductTest#EditPrice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testClasses.EditProductTest#EditTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testClasses.HomeTest#CheckFooter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testClasses.HomeTest#CheckLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testClasses.HomeTest#CheckSearchBar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">testClasses.HomeTest#Checkfooter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">testClasses.PerformnaceTest#NavigationTiming</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">testClasses.SearchTest#InValidSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">testClasses.SearchTest#ValidSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
