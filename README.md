@@ -12,12 +12,23 @@ Used tools and frameworks
 
 
 
-Main features
+Main characteristic 
 ----------------------------
 1. Hybrid framework to automate website test cases. 
 2. All classes and methods are implemented in Java with Maven repository to include all dependencies needed.
 3. every module is separated in single class
 4. Source code is available here: https://github.com/mostafaamin442/KIB
+
+
+
+Main Features 
+----------------------------
+1. Home page items' displaying
+2. Add new product 
+3. Edit the product 
+4. Search 
+5. Delete product 
+6. website performance
 
 
 Tools versions 
@@ -58,4 +69,14 @@ Test scenarios covered in the task
 27. verift that the navigation time is less than 5000 ms
 28. verify that the server Response Time is less than 5000 ms
 29. erify that the Resourse Timing is less than 1000 ms
+
+
+Test Result
+-----------------------------
+1. Execution time : 2:03 Sec
+
+Overview
+![image](https://user-images.githubusercontent.com/53869077/236669213-2994b794-e191-46d2-b1df-2a17c3a490ba.png)
+
+
 
