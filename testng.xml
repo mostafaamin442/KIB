@@ -1,7 +1,6 @@
 <suite name="Testing">
 	<test name="Regression">
 		<classes>
-			
 			<class name="testClasses.HomeTest" />
 			<class name="testClasses.SearchTest" />
 			<class name="testClasses.AddProductTest" />
