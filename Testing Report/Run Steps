@@ -1,0 +1,5 @@
+Download the zip file 
+Extract it
+Open cmd
+Redirect to extracted folder location 
+Add this command:   allure serve
